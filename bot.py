@@ -26,7 +26,7 @@ def search(update: Update, context: CallbackContext) -> None:
     update.message.reply_text(result_text, reply_markup=reply_markup)
 
 # Konfigurasi token bot dan inisialisasi Updater
-updater = Updater(token='YOUR_BOT_TOKEN', use_context=True)
+updater = Updater(token='6578195199:AAGMG0exVKHtttBReBtJusgbIE0R57av-G8', use_context=True)
 
 # Daftarkan handler untuk perintah /search
 updater.dispatcher.add_handler(CommandHandler('search', search))
