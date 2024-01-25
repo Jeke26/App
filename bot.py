@@ -5,7 +5,7 @@ import requests
 # Fungsi untuk menangani perintah /search
 def search_spotify(query, access_token):
     api_url = 'https://api.spotify.com/v1/search'
-    headers = {'Authorization': f'Bearer {access_token}'}
+    headers = {'Authorization': f'Bearer {2TpxZ7JUBn3uw46aR7qd6V}'}
     params = {'q': query, 'type': 'track'}
 
     response = requests.get(api_url, headers=headers, params=params)
